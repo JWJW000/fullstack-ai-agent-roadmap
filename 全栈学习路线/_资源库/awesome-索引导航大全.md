@@ -36,16 +36,16 @@ awesome 列表很容易让人陷入收集癖。**正确用法只有一句话：�
 
 ## 编程语言
 
-| 列表 | 描述 |
-|---|---|
-| **vinta/awesome-python** | Python 老牌大全，~220k star |
-| **jobbole/awesome-python-cn** | 中文版 awesome-python |
-| **sorrycc/awesome-javascript** | 云谦版 JavaScript |
-| **avelino/awesome-go** | Go 生态最权威清单 |
-| **rust-unofficial/awesome-rust** | Rust 全家桶 |
-| **dzharii/awesome-typescript** | TypeScript 资源 |
-| **fffaraz/awesome-cpp** | C++ 资源 |
-| **akullpp/awesome-java** | Java 库 |
+| 列表                               | 描述                     |
+| -------------------------------- | ---------------------- |
+| **vinta/awesome-python**         | Python 老牌大全，~220k star |
+| **jobbole/awesome-python-cn**    | 中文版 awesome-python     |
+| **sorrycc/awesome-javascript**   | 云谦版 JavaScript         |
+| **avelino/awesome-go**           | Go 生态最权威清单             |
+| **rust-unofficial/awesome-rust** | Rust 全家桶               |
+| **dzharii/awesome-typescript**   | TypeScript 资源          |
+| **fffaraz/awesome-cpp**          | C++ 资源                 |
+| **akullpp/awesome-java**         | Java 库                 |
 
 ---
 
