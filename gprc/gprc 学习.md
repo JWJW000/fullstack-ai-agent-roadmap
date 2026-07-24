@@ -5,3 +5,10 @@ protocol buffers 提供广泛的工具支持，可以将 proto 文件中定义�
 
 优势开箱即用，性能优异。
 原因：protocol buffers是一种非常高效的二进制编码格式，比 JSON 快的多。其次gRPC 建立在HTTP/2之上，已提供大规模的高性能支持。它允许通过单个长期存在的TCP连接传输多个消息流。这使得 gRPC 框架能够使客户端和服务器之间少量的TCP 连接来处理许多并发的RPC 调用。
+
+# 异步相关概念
+
+不管是Client还是Server，异步grpc都是利用CompletionQuenue API进行异步操作。基本流程：
+- 绑定一个CompletionQueue到一个RPC调用
+- 利用唯一的void* Tag进行读写
+- 调用CompletionQueue::Next()等待操作完成，完成后通过唯一Tag来判断对应什么请求/返回进行后续操作
